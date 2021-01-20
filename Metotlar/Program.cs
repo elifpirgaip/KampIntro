@@ -38,10 +38,20 @@ namespace Metotlar
 
             // intance - örnek
             // syntax
+            // emcapsulation - kapsülleme
 
             SepetManager sepetManager = new SepetManager();
-            sepetManager.Ekle();
-            sepetManager.Ekle();
+            sepetManager.Ekle(urun1);
+            sepetManager.Ekle(urun2);
+            sepetManager.Ekle(urun3);
+
+            // Ekle2 class'ın kullanım biçimi yanlıştır. Class'a yeni parametre eklediğimizde, aşağıdaki kod blklarını da değiştirmemiz,
+            // ekleme yapmamız gerekmektedir. Sayfamız bu şekilde dinamik olmaz. 
+            // Urun.cs adlı class'ımıza istenilen "StokAdedi"'ni eklediğimizde herhangi bir sıkıntı olmaz diğer sayfalarda. Çünkü dinamik oldu.
+            // encapsulation yapmmış olduk. Ayrı ayrı yazılacak, düzensiz olacak bir yapıyı bir düzenin içine sokmuş olduk yani kapsülleme yapmış olduk.
+
+            sepetManager.Ekle2("Armut", "Yeşil Armut", 13,2);
+            sepetManager.Ekle2("Elma", "Yeşil Elma", 17,5);
         }
     }
 }

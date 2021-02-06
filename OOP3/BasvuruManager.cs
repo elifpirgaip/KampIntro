@@ -6,13 +6,24 @@ namespace OOP3
 {
     class BasvuruManager
     {
-        public void BasvuruYap(IKrediManager krediManager) // parametre olarak krediManager yerine buraya ne gönderirsek orası çalışır. 
+        // Method injection : 
+        // Constructor injection :
+        public void BasvuruYap(IKrediManager krediManageri, ILoggerService loggerService) // parametre olarak buraya ne gönderirsek orası çalışır. 
         {
             // Başvuran bilgilerini değerlendirme
             // ...
 
-            krediManager.Hesapla();
+            krediManageri.Hesapla();
+            loggerService.Log();
 
+        }
+
+        public void KrediOnBilgilendirmesiYap(List<IKrediManager> krediler)
+        {
+            foreach (var kredi in krediler)
+            {
+                kredi.Hesapla();
+            }
         }
     }
 }

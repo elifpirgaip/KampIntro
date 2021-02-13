@@ -21,9 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matematik", "Matematik\Mate
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DegerVeReferansTipler", "DegerVeReferansTipler\DegerVeReferansTipler.csproj", "{78A4A83F-486D-4C7B-8D66-3D77F5CA3568}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2", "OOP2\OOP2.csproj", "{AE1C26CD-D041-44C9-AC49-7B4FA90DCC2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP2", "OOP2\OOP2.csproj", "{AE1C26CD-D041-44C9-AC49-7B4FA90DCC2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP3", "OOP3\OOP3.csproj", "{128AEDE8-FB59-4165-B659-474FD533D6D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP3", "OOP3\OOP3.csproj", "{128AEDE8-FB59-4165-B659-474FD533D6D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sql", "Sql\Sql.csproj", "{75E0E8E5-D948-4C78-BFA1-5197A2DC1DDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameProject", "GameProject\GameProject.csproj", "{AA5F339D-E291-48A6-8039-5234ECEB00BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{128AEDE8-FB59-4165-B659-474FD533D6D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{128AEDE8-FB59-4165-B659-474FD533D6D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{128AEDE8-FB59-4165-B659-474FD533D6D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75E0E8E5-D948-4C78-BFA1-5197A2DC1DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E0E8E5-D948-4C78-BFA1-5197A2DC1DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E0E8E5-D948-4C78-BFA1-5197A2DC1DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E0E8E5-D948-4C78-BFA1-5197A2DC1DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA5F339D-E291-48A6-8039-5234ECEB00BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA5F339D-E291-48A6-8039-5234ECEB00BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA5F339D-E291-48A6-8039-5234ECEB00BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA5F339D-E291-48A6-8039-5234ECEB00BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

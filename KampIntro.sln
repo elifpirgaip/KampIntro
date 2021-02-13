@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameProject", "GameProject\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMethodDemo", "ClassMethodDemo\ClassMethodDemo.csproj", "{D6071029-F6E2-414B-A655-B944A2E3967D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasitETicaretOrn", "BasitETicaretOrn\BasitETicaretOrn.csproj", "{C60A3590-E746-4AF1-8DC8-CD5808ACE9AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{D6071029-F6E2-414B-A655-B944A2E3967D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6071029-F6E2-414B-A655-B944A2E3967D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6071029-F6E2-414B-A655-B944A2E3967D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C60A3590-E746-4AF1-8DC8-CD5808ACE9AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60A3590-E746-4AF1-8DC8-CD5808ACE9AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C60A3590-E746-4AF1-8DC8-CD5808ACE9AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C60A3590-E746-4AF1-8DC8-CD5808ACE9AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

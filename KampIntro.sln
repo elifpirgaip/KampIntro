@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasitETicaretOrn", "BasitET
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDictionary", "MyDictionary\MyDictionary.csproj", "{52E71296-B4CD-4FFA-A6DA-8297AC8711F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqProject", "LinqProject\LinqProject.csproj", "{48D88666-EFBD-4C3E-BD35-DD5F157B2980}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqProject", "LinqProject\LinqProject.csproj", "{48D88666-EFBD-4C3E-BD35-DD5F157B2980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkDemo", "EntityFrameworkDemo\EntityFrameworkDemo.csproj", "{66B06132-75B2-4F03-ADDD-ED4AD33734B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{48D88666-EFBD-4C3E-BD35-DD5F157B2980}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48D88666-EFBD-4C3E-BD35-DD5F157B2980}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48D88666-EFBD-4C3E-BD35-DD5F157B2980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B06132-75B2-4F03-ADDD-ED4AD33734B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B06132-75B2-4F03-ADDD-ED4AD33734B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B06132-75B2-4F03-ADDD-ED4AD33734B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B06132-75B2-4F03-ADDD-ED4AD33734B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
